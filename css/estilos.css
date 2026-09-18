@@ -427,8 +427,6 @@ footer {
     margin-bottom: 40px;
 }
 
-
-
 .footer-logo p {
     font-size: 15px;
     color: #ffb7c5;
@@ -458,85 +456,3 @@ footer {
     font-size: 14px;
     color: #d4bfc4;
 }
-
-/* ================================
-   RESPONSIVE
-   ================================ */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        height: auto;
-        padding: 15px 20px;
-    }
-
-    .menu ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-        margin-top: 10px;
-    }
-
-    .hero h1 {
-        font-size: 36px;
-    }
-
-    .hero p {
-        font-size: 16px;
-    }
-
-    .contenedor-servicios {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        max-width: 90%;
-    }
-
-    .formulario {
-        grid-template-columns: 1fr;
-    }
-
-    .grupo-campo.full,
-    .formulario .btn-principal {
-        grid-column: span 1;
-    }
-
-    .footer-contenido {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .footer-logo img {
-        margin: 0 auto 12px;
-        width: 80px;
-        height: auto;
-        object-fit: contain;
-    }
-
-    .contenedor-galeria {
-        grid-template-columns: 1fr;
-    }
-}
-    .formulario .btn-principal {
-        grid-column: span 1;
-    }
-
-    .footer-contenido {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .footer-logo img {
-        margin: 0 auto 12px;
-        width: 80px;
-        height: auto;
-        object-fit: contain;
-    }
-
-    .contenedor-galeria {
-        grid-template-columns: 1fr;
-    }
-
